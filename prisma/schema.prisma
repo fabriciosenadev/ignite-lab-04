@@ -17,6 +17,7 @@ model Notification {
   content     String
   category    String
   readAt      DateTime? //nullable
+  canceledAt  DateTime?
   createdAt   DateTime  @default(now())
 
   @@index([recipientId]) // similar to a FK

@@ -19,5 +19,7 @@ export class AppModule {}
  * npx prisma migrate dev -> run migrations on database
  *
  * npx prisma studio -> open a web interface with database
+ * 
+ * npx tsc --noEmit -> check if there are any error in application
  *
  */
