@@ -7,6 +7,8 @@ import { ServerKafka } from '@nestjs/microservices';
  * consumer -> uses ServerKafka
  *
  * producer -> uses ClientKafka
+ * 
+ * site para uso da fila: upstash.com
  *
  */
 
